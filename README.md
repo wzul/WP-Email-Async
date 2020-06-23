@@ -1,6 +1,6 @@
 # WP Email Async
 
-Make wp_mail to be sent to wp_cron to ensure faster user experience when WordPress is sending an email.
+Make wp_mail to be sent to wp_cron to ensure faster user experience when WordPress is sending an email. It's an asynchronous-like experience as it will make wp_mail fast by queueing it to the next 2 seconds.
 
 ## Why WP Cron?
 
